@@ -2,6 +2,9 @@
     box-sizing: border-box;
     padding: 0;
 }
+html {
+    font-family: Roboto, sans-serif;
+}
 
 .container {
     position: relative;
@@ -42,7 +45,7 @@ h1 {
     
     font-family: Roboto;
     font-size: 41px;
-    font-weight: 400;
+    font-weight: 900;
     line-height: 24px;
     text-align: center;
     text-transform: uppercase;
@@ -67,7 +70,7 @@ h2.title {
     font-family: Roboto;
     font-size: 21px;
     font-weight: 300;
-    
+    line-height: 28px;
     text-align: center;
     color: #ffffff;
 
