@@ -4,6 +4,7 @@
 }
 
 .container {
+    position: relative;
     width: 1140px;
     margin: 0 auto;
 }
@@ -76,7 +77,7 @@ h2.title {
     font-weight: bold;
     color: #f9bf3b;
 }
-.promo .promo_btn {
+.promo .promo_btn, .gift .promo_btn {
     display: block;
     margin: 0px  auto;
     margin-top: 73px;
@@ -104,7 +105,7 @@ h2.title {
 }
 .more .more_text {
     font-family: Roboto;
-    font-size: 15px; */
+    font-size: 15px; 
     font-weight: 400;
     text-align: center;
     color: #ffffff;
@@ -117,12 +118,12 @@ h2.title {
 }
 
 .waiting {
-    height: 604px;
+    min-height: 604px;
     padding: 85px 0 75px ;
     background-color: #efefef;
 }
 
-.waiting .waiting_header {
+.waiting .waiting_header, .finish .finish_header {
     font-family: Roboto;
     font-size: 30px;
     font-weight: 400;
@@ -131,7 +132,7 @@ h2.title {
     text-transform: uppercase;
 }
 
-.waiting .waiting_divider {
+.waiting .waiting_divider, .finish .finish_divider{
     width: 217px;
     height: 4px;
     margin: 18px auto;
@@ -167,4 +168,154 @@ h2.title {
     font-weight: 300;
     line-height: 21px;
     color: #4a4a4a;
+}
+
+.optimization {
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+.optimization .optimization_header {
+    margin-left: 391px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+    color: #299cbd;
+    text-transform: uppercase;
+}
+.optimization .optimization_text {
+    margin-top: 25px;
+    margin-left: 391px;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+
+    line-height: 27px;
+     color: #4a4a4a;
+}
+.optimization .optimization_text span {
+   font-weight: bold;
+
+}
+.optimization .optimization_img {
+    position: absolute;
+    top: -48px;
+    left:-240px;
+    z-index: -1;
+}
+.finish .finish_header {
+    color: #efefef;
+}
+.finish {
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url('/img/img6.png') center center/cover no-repeat;
+}
+
+.finish .finish_wrapper {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item{
+    width: 204px;
+
+}
+
+.finish .finish_wrapper .finish_item .finish_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+     width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+}
+.finish .finish_wrapper .finish_item .finish_description {
+margin-top: 25px;
+font-family: Roboto;
+font-size: 17px;
+font-weight: 300;
+line-height: 1.18;
+letter-spacing: normal;
+text-align: center;
+color: #efefef;
+text-align: center;
+}
+
+.gift {
+    min-height: 628px;
+    padding: 86px 0 87px ;
+    background-color: #efefef;
+}
+.gift_img {
+    display: block;
+    margin: 0 auto;
+    width: 154px;
+   }
+
+.gift .gift_text {
+    margin-top: 42px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #252525;
+}
+
+.container_timein {
+    min-height: 604px;
+    padding: 85px 0 75px ;
+    
+}
+.timein .timein_img{ 
+    display: block;
+    margin: 0 auto;
+    width: 252px;
+}
+.timein .timein_text {
+    margin-top: 37px;
+    font-family: Roboto;
+    font-size: 30px;
+    text-align: center;
+    color: #252525;
+    text-transform: uppercase;
+}
+.timein .time_text2 {
+    margin-top: 30px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    color: #299cbd;
+    text-transform: uppercase;
+}
+.timein .timein_text3 {
+    margin-top: 15px;
+    font-family: Roboto;
+    font-size: 23px;
+    text-align: center;
+    color: #4a4a4a;
+}
+.footer_container {
+    min-height: 166px;
+    padding: 61px 0 69px ;
+    background-color: #1a1a1a;
+}   
+.footer_container .footer_text{
+    font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #888888;
 }
