@@ -303,12 +303,12 @@ text-align: center;
     text-align: center;
     color: #4a4a4a;
 }
-.footer_container {
+.footer_info {
     min-height: 166px;
     padding: 61px 0 69px ;
     background-color: #1a1a1a;
 }   
-.footer_container .footer_text{
+.footer_info .footer_text{
     font-family: Roboto;
   font-size: 15px;
   font-weight: 300;
@@ -318,4 +318,7 @@ text-align: center;
   letter-spacing: normal;
   text-align: center;
   color: #888888;
+}
+.underline {
+    text-decoration: underline;
 }
